@@ -6,7 +6,6 @@ body {
  
 nav ul {
   list-style: none;
-  background-color: #3030ee;
   text-align: center;
   padding: 0;
   margin: 0;
@@ -31,11 +30,7 @@ nav a:hover {
   color: #3030ee;
 }
 
-.card {
-  float: left;
-  width: 15%;
-  margin-left: 15%;
-}
+
 
 .card a {
   text-align: center;
@@ -50,14 +45,7 @@ h1 {
   text-align: center;
 }
 
-div{
-    margin-left: 10%;
-    margin-right: 10%;
-    border: 1px solid black;
-    padding: 25px;
-    margin-top: 50px;
-    
-}
+
 
 
 /*------------------------------footer */

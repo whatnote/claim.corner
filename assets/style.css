@@ -26,20 +26,9 @@ nav a {
   display: block;
 }
 
-nav a:hover {
-  background-color: #fff;
-  color: #3030ee;
-}
 
-.card {
-  float: left;
-  width: 15%;
-  margin-left: 15%;
-}
 
-.card a {
-  text-align: center;
-}
+
 
 img {
   width: 100%;
