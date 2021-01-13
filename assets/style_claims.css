@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 /*----Nave bar Styling ---*/
 
@@ -20,7 +16,7 @@ nav li {
   display: inline-block;
   margin-left: 2.5%;
 }
- 
+
 nav a {
   text-decoration: none;
   color: #fff;
@@ -32,11 +28,9 @@ nav a:hover {
   color: #3030ee;
 }
 
-
 /* ---Text Properties---*/
-h4{
-
-  font-family: 'lato', 'sans-serif';
+h4 {
+  font-family: "lato", "sans-serif";
   color: black;
   font-size: 55px;
   text-align: center;
@@ -47,12 +41,9 @@ h4{
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-
 }
 
-
 /*--------card content allignment---*/
-
 
 .centerbutton {
   margin: 0;
@@ -63,56 +54,50 @@ h4{
   transform: translate(-50%, -50%);
 }
 
-.linkposition{
-    font-size: 22px;
-    color: black;
-    margin: 0;
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
-
+.linkposition {
+  font-size: 22px;
+  color: black;
+  margin: 0;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 
 /*------------------cards */
 
-
-.content{
+.content {
   display: grid;
   place-content: centre;
 }
 
-.corners{
+.corners {
   border-radius: 10px;
 }
 
-.maincontainer{
+.maincontainer {
   position: relative;
   width: 250px;
   height: 320px;
   border-radius: 10px;
   padding: 10px;
-  
 }
 
-
-
-.thecard{
+.thecard {
   position: relative;
   width: 100%;
   height: 100%;
   border-radius: 10px;
   transform-style: preserve-3d;
   transition: all 0.8s ease;
- 
 }
 
-.backflip{
+.backflip {
   transform: rotateY(180deg);
 }
 
-.thefront{
+.thefront {
   position: absolute;
   border: 1px;
   border-style: solid;
@@ -120,11 +105,10 @@ h4{
   height: 100%;
   border-radius: 10px;
   backface-visibility: hidden;
-  color:#333;
+  color: #333;
 }
 
-
-.theback{
+.theback {
   position: absolute;
   border: 1px;
   border-style: solid;
@@ -133,15 +117,14 @@ h4{
   backface-visibility: hidden;
   border-radius: 10px;
   background-color: #ffc728;
-  color:#333;
+  color: #333;
   transform: rotateY(180deg);
-
 }
 
 /*--------Expanding Cards----------------*/
 
 .bodybox {
-  font-family: 'Muli', 'sans-serif';
+  font-family: "Muli", "sans-serif";
   display: flex;
   align-items: center;
   justify-content: center;
@@ -150,7 +133,7 @@ h4{
   margin: 0;
 }
 
-.container{
+.container {
   display: flex;
   width: 90vw;
 }
@@ -158,7 +141,7 @@ h4{
 .panel {
   background-size: auto 100%;
   background-position: center;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   height: 80vh;
   border-radius: 50px;
   color: black;
@@ -168,11 +151,9 @@ h4{
   position: relative;
   transition: flex 0.7s ease-in;
   text-orientation: sideways-right;
-
-    
 }
 
-.panel h3{
+.panel h3 {
   font-size: 24px;
   position: absolute;
   bottom: 20px;
@@ -182,65 +163,67 @@ h4{
   text-orientation: sideways-right;
   transform: rotate(-90deg);
   border: black;
-  border:3px;
-  
-
+  border: 3px;
 }
 
-.panel.active{
-flex: 5;
+.panel.active {
+  flex: 5;
 }
 
 .panel.active h3 {
-opacity: 1;
-transition: opacity 0.3s ease-in 0.4s;
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
 }
 
-@media (max-width:480px){
-  .container{
+@media (max-width: 480px) {
+  .container {
     width: 100vw;
   }
 
   .panel:nth-of-type(4),
-  .panel:nth-of-type(5){
+  .panel:nth-of-type(5) {
     display: none;
   }
-
 }
 
+/*--------value vehicle ----*/
 
+.containervehiclevalue {
+  padding-left: 10%;
+  padding-top: 5%;
+}
 
+h2 {
+  position: center;
+}
 /*------------------------------footer */
 
-
-.social-networks { 
-    text-align: center;
+.social-networks {
+  text-align: center;
 }
 
-.social-networks, li {   
-    display: inline;
+.social-networks li {
+  display: inline;
 }
 
-.social-networks, i {
-    font-size: 32px;
-    margin: 1%;
-    padding: 1%;
-    color:#696666;
-    
+.social-networks i {
+  font-size: 32px;
+  margin: 1%;
+  padding: 1%;
+  color: #696666;
 }
 
-.ptext{
-    color:#696666;
-    text-align: center; 
-    font-family: 'karla', 'sans-serif' ;
-    font-size: 16px;
-    padding: 1px;
+.ptext {
+  color: #696666;
+  text-align: center;
+  font-family: "karla", "sans-serif";
+  font-size: 16px;
+  padding: 1px;
 }
 
-.makerlink{
-    color:black;
-    text-align: center; 
-    font-family: 'karla', 'sans-serif' ;
-    font-size: 16px;
-
+.makerlink {
+  color: black;
+  text-align: center;
+  font-family: "karla", "sans-serif";
+  font-size: 16px;
 }
