@@ -116,7 +116,7 @@ h4 {
   height: 100%;
   backface-visibility: hidden;
   border-radius: 10px;
-  background-color: #ffc728;
+  background-color: #fff;
   color: #333;
   transform: rotateY(180deg);
 }
