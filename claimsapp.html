@@ -20,7 +20,9 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-md navbar-light flex-sm-row nav-fill">
+      <nav
+        class="navbar fixed-top navbar-expand-md navbar-light bg-light flex-sm-row nav-fill"
+      >
         <button
           class="navbar-toggler"
           type="button"
@@ -32,10 +34,12 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <a class="navbar-brand"> <h1 class="corner">Claims Corner</h1></a>
+        <div class="collapse container-fluid navbar-collapse" id="navbarNav">
+          <a class="navbar-brand">
+            <h1>Claims <span class="corner">Corner</span></h1></a
+          >
 
-          <ul class="navbar-nav flex-sm-fill nav-fill">
+          <ul class="navbar-nav flex-sm-fill justify-content-end">
             <li class="nav-item">
               <a class="nav-link flex-sm-fill" href="index.html">Claim Types</a>
             </li>
@@ -46,14 +50,16 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link flex-sm-fill" href="#">Insurer Contact</a>
+              <a class="nav-link flex-sm-fill" href="insurercontacts.html"
+                >Insurer Contact</a
+              >
             </li>
           </ul>
         </div>
       </nav>
     </header>
 
-    <section class="container-fluid">
+    <section class="container-fluid paddindfromnavbar">
       <h2>Claims App overview</h2>
     </section>
 

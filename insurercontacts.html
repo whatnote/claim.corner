@@ -20,7 +20,9 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-md navbar-light flex-sm-row nav-fill">
+      <nav
+        class="navbar fixed-top navbar-expand-md navbar-light bg-light flex-sm-row nav-fill"
+      >
         <button
           class="navbar-toggler"
           type="button"
@@ -32,10 +34,12 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <a class="navbar-brand"> <h1 class="corner">Claims Corner</h1></a>
+        <div class="collapse container-fluid navbar-collapse" id="navbarNav">
+          <a class="navbar-brand">
+            <h1>Claims <span class="corner">Corner</span></h1></a
+          >
 
-          <ul class="navbar-nav flex-sm-fill nav-fill">
+          <ul class="navbar-nav flex-sm-fill justify-content-end">
             <li class="nav-item">
               <a class="nav-link flex-sm-fill" href="index.html">Claim Types</a>
             </li>
@@ -55,45 +59,70 @@
       </nav>
     </header>
 
-    <section class="container-fluid bodybox">
-      <div class="container">
-        <div
-          class="panel active"
-          style="background-image: url('./images/trombone.JPG')"
-        >
-          <h3>Allianz</h3>
-        </div>
+    <section class="container-fluid bodybox paddindfromnavbar">
+      <details>
+        <summary>Aviva</summary>
+        <table class="tablecentre">
+          <tr>
+            <td><strong>Motor</strong></td>
+            <td>0845 300 4568</td>
+            <td>
+              <a href="mailto:daniel_cornwall@hotmail.com"
+                >daniel_cornwall@hotmail.com</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Department</strong></td>
+            <td>Number</td>
+            <td>
+              <a href="mailto:"></a>
+            </td>
+          </tr>
+        </table>
+      </details>
 
-        <div
-          class="panel"
-          style="
-            background-image: url('./images/Skinners - Family shot PS.jpg');
-          "
-        >
-          <h3>AXA</h3>
-        </div>
+      <details>
+        <summary>Allianz</summary>
+        <p>Motor</p>
+        <p>Property</p>
+        <p>Personal Lines</p>
+      </details>
 
-        <div
-          class="panel"
-          style="background-image: url('./images/IMG_6467.JPG')"
-        >
-          <h3>Direct Comercial Ltd</h3>
-        </div>
+      <details>
+        <summary>AXA</summary>
+        <p>Motor</p>
+        <p>Property</p>
+        <p>Personal Lines</p>
+      </details>
 
-        <div
-          class="panel"
-          style="background-image: url('./images/IMG_3798.JPG')"
-        >
-          <h3>Aviva</h3>
-        </div>
+      <details>
+        <summary>Arch</summary>
+        <p>Motor</p>
+        <p>Property</p>
+        <p>Personal Lines</p>
+      </details>
 
-        <div
-          class="panel"
-          style="background-image: url('./images/IMG_3655.JPG')"
-        >
-          <h3>Zurich</h3>
-        </div>
-      </div>
+      <details>
+        <summary>Direct Commercial Insurance</summary>
+        <p>Motor</p>
+        <p>Property</p>
+        <p>Personal Lines</p>
+      </details>
+
+      <details>
+        <summary>ERS</summary>
+        <p>Motor</p>
+        <p>Property</p>
+        <p>Personal Lines</p>
+      </details>
+
+      <details>
+        <summary>Zurich</summary>
+        <p>Motor</p>
+        <p>Property</p>
+        <p>Personal Lines</p>
+      </details>
     </section>
 
     <footer class="container-fluid">
