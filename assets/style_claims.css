@@ -1,35 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
-body {
-  padding-top: 65px;
-}
-
-.paddindfromnavbar {
-  padding-top: 65px;
-}
-
 /*----Nave bar Styling ---*/
-
-nav ul {
-  list-style: none;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-}
-
-nav li {
-  font-size: 1.2em;
-  line-height: 40px;
-  height: 40px;
-  display: inline-block;
-  margin-left: 2.5%;
-}
-
-nav a {
-  text-decoration: none;
-  color: #fff;
-  display: block;
-}
 
 .corner {
   border-top: #333 solid 2px;
@@ -37,9 +8,8 @@ nav a {
   padding-right: 12px;
 }
 
-nav a:hover {
-  background-color: #fff;
-  color: #3030ee;
+body {
+  padding-top: 6rem;
 }
 
 /* ---Text Properties---*/
@@ -145,21 +115,38 @@ h4 {
 
 details {
   text-align: center;
-  border: rgb(97, 97, 97) 2px solid;
+  border: rgb(97, 97, 97) 1px solid;
   padding: 25px;
-  width: 50%;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 25px;
+  margin-top: 10px;
 }
 
 summary {
   font-size: 20px;
+  border: none;
+  border-radius: 25px;
 }
 
 .tablecentre {
   position: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.tablecentre tr {
+  position: center;
+}
+
+.tablecentre td {
+  padding-left: 5px;
+}
+
+.tablecentre a {
+  text-decoration: none;
+  color: #696666;
+}
 /*--------value vehicle ----*/
 
 .containervehiclevalue {
@@ -202,4 +189,10 @@ h2 {
   text-align: center;
   font-family: "karla", "sans-serif";
   font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  details {
+    width: 95%;
+  }
 }
