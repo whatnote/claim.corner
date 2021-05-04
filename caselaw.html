@@ -23,40 +23,51 @@
 <body>
     <header>
       <nav
-      class="navbar fixed-top navbar-expand-md navbar-light bg-light flex-sm-row nav-fill"
+      class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
+      data-toggle="collapse"
+      data-target=".navbar-collapse.show"
     >
-
-    
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse container-fluid navbar-collapse" id="navbarNav">
+      <div class="container-fluid">
         <a class="navbar-brand"> <h1>Claims <Span class="corner">Corner</Span></h1></a>
-
-        <ul class="navbar-nav flex-sm-fill justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link flex-sm-fill" href="index.html">Claim Types</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link flex-sm-fill" href="claimsapp.html"
-              >Claims App</a
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+           
+            <li
+              class="nav-item"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
             >
-          </li>
+              <a class="nav-link" href="index.html">Claims</a>
+            </li>
 
-          <li class="nav-item">
-            <a class="nav-link flex-sm-fill" href="insurercontacts.html"
-              >Insurer Contact</a
+            <li
+              class="nav-item"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
             >
-          </li>
-        </ul>
+              <a class="nav-link" href="claimsapp.html">Claims App</a>
+            </li>
+            <li
+              class="nav-item"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+            >
+              <a class="nav-link" href="insurercontacts.html">Claims Contacts</a>
+            </li>
+          
+          </ul>
+        </div>
       </div>
     </nav>
       </header>
